@@ -1,0 +1,422 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2689,
+      "max": [
+        0.5467299818992615,
+        1.2000499963760376,
+        1.0596400499343872
+      ],
+      "min": [
+        -0.5467299818992615,
+        -1.133430004119873,
+        -1.0879600048065186
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32268,
+      "componentType": 5126,
+      "count": 2689,
+      "max": [
+        0.9999815821647644,
+        0.9998244047164917,
+        0.9994333386421204
+      ],
+      "min": [
+        -0.9999815821647644,
+        -0.9998266696929932,
+        -0.9996073842048645
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2689,
+      "max": [
+        0.9933266639709473,
+        0.9999707937240601,
+        0.9997771978378296,
+        1.0
+      ],
+      "min": [
+        -0.9933266639709473,
+        -0.9980325698852539,
+        -0.9998266100883484,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2689,
+      "max": [
+        0.9595699906349182,
+        0.9960100054740906
+      ],
+      "min": [
+        0.056710001081228256,
+        0.0009500000160187483
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 21512,
+      "componentType": 5126,
+      "count": 2689,
+      "max": [
+        0.9595699906349182,
+        0.9960100054740906
+      ],
+      "min": [
+        0.056710001081228256,
+        0.0009500000160187483
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 43024,
+      "componentType": 5126,
+      "count": 2689,
+      "max": [
+        0.9595699906349182,
+        0.9960100054740906
+      ],
+      "min": [
+        0.056710001081228256,
+        0.0009500000160187483
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 64536,
+      "componentType": 5126,
+      "count": 2689,
+      "max": [
+        0.9595699906349182,
+        0.9960100054740906
+      ],
+      "min": [
+        0.056710001081228256,
+        0.0009500000160187483
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 86048,
+      "componentType": 5126,
+      "count": 2689,
+      "max": [
+        0.9595699906349182,
+        0.9960100054740906
+      ],
+      "min": [
+        0.056710001081228256,
+        0.0009500000160187483
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 14010,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Incel Fracassado (https://sketchfab.com/Neuton)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/hotline-miami-richard-mask-f84480d3a0314efcad486185b7eff4f1",
+      "title": "Hotline Miami - Richard Mask"
+    },
+    "generator": "Sketchfab-12.64.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 56040,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 107560,
+      "byteOffset": 56040,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64536,
+      "byteOffset": 163600,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43024,
+      "byteOffset": 228136,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 271160,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/mat_Richard_diffuse.png"
+    },
+    {
+      "uri": "textures/mat_Richard_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/mat_Richard_normal.png"
+    },
+    {
+      "uri": "textures/mat_Richard_occlusion.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 0.15,
+          "specularFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "name": "mat_Richard",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.2
+      },
+      "occlusionTexture": {
+        "index": 3,
+        "strength": 0.3
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Richard_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5,
+            "TEXCOORD_3": 6,
+            "TEXCOORD_4": 7
+          },
+          "indices": 8,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Richard"
+    },
+    {
+      "mesh": 0,
+      "name": "Richard_0"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.44003,
+        -1.16202,
+        1.33407,
+        1.0
+      ],
+      "name": "Point"
+    },
+    {
+      "name": "Point"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0289199999999998,
+        1.31447,
+        0.7467600000000001,
+        1.0
+      ],
+      "name": "Point.002"
+    },
+    {
+      "name": "Point.002"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.7182700000000001,
+        -1.7457,
+        -1.10326,
+        1.0
+      ],
+      "name": "Point.004"
+    },
+    {
+      "name": "Point.004"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
