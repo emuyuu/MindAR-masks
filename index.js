@@ -15,7 +15,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  sceneEl.addEventListener("targetLost", () => {
-    setNextVisible();
-  });
+  sceneEl.addEventListener("targetLost", setNextVisible);
 });
